@@ -25,4 +25,5 @@ const sendToServer = () => {
       'Content-Type': 'application/json'
     })
   })
+  document.querySelector('#userinput').value = ''
 }
